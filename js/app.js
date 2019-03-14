@@ -16,6 +16,8 @@ keyboard.addEventListener('click', (event) => {
     };
 });
 
+
+//the class name 'keyForPhysicalkyboard' does not change with game methods, use it to find all keys
 const keys = document.getElementsByClassName('keyForPhysicalKyboard');
 
 //Listen to physical keyboard
